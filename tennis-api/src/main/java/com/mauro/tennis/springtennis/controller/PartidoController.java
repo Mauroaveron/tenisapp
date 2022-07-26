@@ -2,7 +2,7 @@ package com.mauro.tennis.springtennis.controller;
 
 import com.mauro.tennis.springtennis.dto.PartidoDTO;
 import com.mauro.tennis.springtennis.enums.ModoJugador;
-import com.mauro.tennis.springtennis.PartidoService;
+import com.mauro.tennis.springtennis.service.PartidoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

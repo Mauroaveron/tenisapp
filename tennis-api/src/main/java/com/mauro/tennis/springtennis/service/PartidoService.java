@@ -1,4 +1,4 @@
-package com.mauro.tennis.springtennis;
+package com.mauro.tennis.springtennis.service;
 
 import java.util.List;
 

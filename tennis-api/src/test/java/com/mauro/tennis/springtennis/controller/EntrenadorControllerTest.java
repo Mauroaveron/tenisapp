@@ -1,7 +1,7 @@
 package com.mauro.tennis.springtennis.controller;
 
 import com.mauro.tennis.springtennis.dto.EntrenadorDTO;
-import com.mauro.tennis.springtennis.EntrenadorServiceImpl;
+import com.mauro.tennis.springtennis.service.EntrenadorServiceImpl;
 import org.json.JSONArray;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

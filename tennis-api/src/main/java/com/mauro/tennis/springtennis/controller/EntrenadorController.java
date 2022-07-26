@@ -1,7 +1,7 @@
 package com.mauro.tennis.springtennis.controller;
 
 import com.mauro.tennis.springtennis.dto.EntrenadorDTO;
-import com.mauro.tennis.springtennis.EntrenadorService;
+import com.mauro.tennis.springtennis.service.EntrenadorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

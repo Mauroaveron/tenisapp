@@ -1,7 +1,7 @@
 package com.mauro.tennis.springtennis.controller;
 
 import com.mauro.tennis.springtennis.dto.CanchaDTO;
-import com.mauro.tennis.springtennis.CanchaService;
+import com.mauro.tennis.springtennis.service.CanchaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

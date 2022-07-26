@@ -1,4 +1,4 @@
-package com.mauro.tennis.springtennis;
+package com.mauro.tennis.springtennis.service;
 
 import com.mauro.tennis.springtennis.dto.EntrenadorDTO;
 import com.mauro.tennis.springtennis.dto.JugadorDTO;
@@ -6,6 +6,7 @@ import com.mauro.tennis.springtennis.enums.Estado;
 import com.mauro.tennis.springtennis.mapper.JugadorMapper;
 import com.mauro.tennis.springtennis.model.Jugador;
 import com.mauro.tennis.springtennis.model.Partido;
+import com.mauro.tennis.springtennis.repository.EntrenadorRepository;
 import com.mauro.tennis.springtennis.repository.JugadorRepository;
 import com.mauro.tennis.springtennis.repository.PartidoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +33,8 @@ public class JugadorServiceImpl implements JugadorService {
     //de utilizarlas por medio de Autowired, son final para que no se puedan modificar una vez instanciadas
     private final JugadorRepository jugadorRepository;
     private final PartidoRepository partidoRepository;
+
+    private final EntrenadorRepository entrenadorRepository;
     private final JugadorMapper jugadorMapper;
 
     /*
@@ -45,9 +48,11 @@ public class JugadorServiceImpl implements JugadorService {
     @Autowired
     public JugadorServiceImpl(JugadorRepository jugadorRepository,
                               PartidoRepository partidoRepository,
+                              EntrenadorRepository entrenadorRepository,
                               JugadorMapper jugadorMapper) {
         this.jugadorRepository = jugadorRepository;
         this.partidoRepository = partidoRepository;
+        this.entrenadorRepository = entrenadorRepository;
         this.jugadorMapper = jugadorMapper;
     }
 

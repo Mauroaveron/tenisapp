@@ -1,6 +1,5 @@
 package com.mauro.tennis.springtennis.service;
 
-import com.mauro.tennis.springtennis.EntrenadorServiceImpl;
 import com.mauro.tennis.springtennis.dto.EntrenadorDTO;
 import com.mauro.tennis.springtennis.mapper.EntrenadorMapperImpl;
 import com.mauro.tennis.springtennis.model.Entrenador;
